@@ -74,11 +74,11 @@ const ContactUsPage = () => {
     // EmailJS Configuration - Replace with your actual credentials
     // Get these from https://www.emailjs.com/
     const EMAILJS_SERVICE_ID =
-      import.meta.env.VITE_EMAILJS_SERVICE_ID || "YOUR_SERVICE_ID";
+      import.meta.env.VITE_EMAILJS_SERVICE_ID || "service_t6th04j";
     const EMAILJS_TEMPLATE_ID =
-      import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "YOUR_TEMPLATE_ID";
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "template_unup1m5";
     const EMAILJS_PUBLIC_KEY =
-      import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "YOUR_PUBLIC_KEY";
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "yH0SSqV7MXrcOaz8l";
 
     // Prepare template parameters for EmailJS
     const templateParams = {

@@ -24,7 +24,7 @@ import Yr12Phys from "../course-pages/physics/Yr12Phys";
 import NotFound from "../Pages/main pages/NotFound";
 import BookFreeTrialPage from "../Pages/main pages/FreeTrail";
 
-const AppRouter = () => {
+const AppRouter = () => { 
   return (
     <Routes>
       <Route path="/" element={<Home />} />

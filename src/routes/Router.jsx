@@ -33,7 +33,7 @@ const AppRouter = () => {
       <Route path="/pricing" element={<PricingPage />} />
       <Route path="/contact" element={<ContactUsPage />} />
       <Route path="/courses" element={<CoursePage />} />
-      <Route path="/free-trail" element={<BookFreeTrialPage />} />
+      <Route path="/free-trial" element={<BookFreeTrialPage />} />
       {/*Math Subject pages */}
       <Route path="/courses/junior-maths" element={<JuniorMaths />} /> //for 7 8
       9 10 maths

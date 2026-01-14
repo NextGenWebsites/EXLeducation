@@ -120,7 +120,7 @@ const LittleDescription = () => {
                 AVAILABLE COHORTS
               </h3>
               {cohorts.map((cohort, index) => (
-                <Link key={index} to="/free-trail">
+                <Link key={index} to="/free-trial">
                   <motion.div
                     initial={{ opacity: 0, scale: 0.9 }}
                     whileInView={{ opacity: 1, scale: 1 }}
